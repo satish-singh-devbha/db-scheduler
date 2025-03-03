@@ -20,6 +20,6 @@
             "name": "Satish Singh Devbha"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {}
 }
