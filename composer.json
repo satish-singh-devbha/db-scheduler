@@ -1,0 +1,25 @@
+{
+    "name": "satishsinghdevbha/db-scheduler",
+    "description": "it's a package to maintain cron scheduler in one place",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Satishsinghdevbha\\DbScheduler\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Satishsinghdevbha\\DbScheduler\\DbSchedulerServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Satish Singh Devbha"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
